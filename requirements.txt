@@ -1,0 +1,9 @@
+gradio
+transformers
+torch
+pytesseract
+opencv-python
+pillow
+numpy
+sentencepiece
+protobuf

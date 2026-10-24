@@ -1,4 +1,5 @@
 # Arabic OCR-to-NLP Pipeline for Arabic Textual Heritage
+   [![DOI](https://zenodo.org/badge/1248348529.svg)](https://doi.org/10.5281/zenodo.23626023)
 
 Code, ground-truth data and results accompanying:
 

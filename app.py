@@ -1,4 +1,4 @@
-"""Gradio app for the Arabic OCR-to-NLP pipeline (JDIR-1030 revised release)."""
+"""Gradio app for the Arabic OCR-to-NLP pipeline (revised release)."""
 import gradio as gr
 from PIL import Image
 import pipeline as P
@@ -73,7 +73,7 @@ with gr.Blocks(title='Arabic OCR-to-NLP Pipeline') as demo:
         '# Arabic OCR-to-NLP Pipeline\n'
         'Open-source workflow for Arabic textual heritage: preprocessing, Tesseract OCR, cleaning, '
         'and an experimental summary. Accompanies the article *From Manuscript to Machine-Readable Text* '
-        '(Journal of Digital Islamicate Research, revised version).\n\n'
+        '(under review).\n\n'
         '**Choose the document type**: no single preprocessing setting suits all material. Measured accuracy (CER) '
         'on al-Nawawī\'s introduction: modern print ≈ 1–16%, old print ≈ 34%, handwritten manuscript ≈ 57%.\n\n'
         '**Warning:** the summary uses a news-trained model (mT5 XL-Sum). It may invent content even from correct text, '

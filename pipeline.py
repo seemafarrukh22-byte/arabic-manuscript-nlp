@@ -1,4 +1,4 @@
-"""Arabic OCR-to-NLP pipeline (JDIR-1030, revised release).
+"""Arabic OCR-to-NLP pipeline (revised release).
 
 Preprocessing presets correspond to the configurations evaluated in the article:
   original    - Otsu binarisation, PSM 6           (original submission; "config. A")

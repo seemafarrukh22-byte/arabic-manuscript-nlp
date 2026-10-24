@@ -12,7 +12,7 @@ import torch, transformers
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-texts = json.load(open(os.path.join(HERE, "summary_inputs.json"), encoding="utf-8"))
+texts = json.load(open(os.path.join(HERE, "..", "results", "summary_inputs.json"), encoding="utf-8"))
 
 MODEL = "csebuetnlp/mT5_multilingual_XLSum"
 print("Loading model (first time may take a few minutes)...")
@@ -34,6 +34,6 @@ for name, text in texts.items():
     print(f"\n=== {name} ===\n{out}")
     lines += [f"=== {name} ===", out, ""]
 
-with open(os.path.join(HERE, "summary_results.txt"), "w", encoding="utf-8") as f:
+with open(os.path.join(HERE, "..", "results", "summary_results.txt"), "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 print("\nDone. Results saved to summary_results.txt")

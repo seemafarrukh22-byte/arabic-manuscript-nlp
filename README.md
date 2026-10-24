@@ -2,7 +2,7 @@
 
 Code, ground-truth data and results accompanying:
 
-> Tahir, S. *From Manuscript to Machine-Readable Text: A Case Study of an End-to-End OCR-to-NLP Pipeline for Arabic Textual Heritage.* Journal of Digital Islamicate Research (revised submission, JDIR-1030).
+> Tahir, S. *From Manuscript to Machine-Readable Text: A Case Study of an End-to-End OCR-to-NLP Pipeline for Arabic Textual Heritage.* (under review).
 
 **Live demo:** https://huggingface.co/spaces/seematahir-ai/arabic-manuscript-nlp
 
